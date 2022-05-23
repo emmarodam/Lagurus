@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth; }
+
+#wrappper {
+  display: flex;
+  position: relative; }
+
+#sidemenu {
+  position: fixed;
+  width: 20vw;
+  height: 100vh;
+  background-color: #DFBCD7;
+  color: #222222;
+  padding: 5%;
+  line-height: 4; }
+
+a {
+  color: #222222; }
+
+a:hover {
+  text-decoration: underline; }
+
+.logo {
+  width: 10vw;
+  margin: 0 auto;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
