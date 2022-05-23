@@ -34,7 +34,7 @@ title.h2 {
 
 .boxcontainer {
 	padding: 20px;
-	
+
 }
 
 .kasse1 { 
@@ -162,3 +162,32 @@ title.h2 {
 	background-color: #DFBCD7;
 }
 
+
+
+
+
+
+
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.gallery img {
+	margin: 0 auto;
+	width: 200px; 
+	height: 200px; 
+}
+
+.gallery .box {
+	position: relative;
+	width: 200px;
+	height: 200px; 
+	display: inline-block;
+}
