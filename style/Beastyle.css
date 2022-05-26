@@ -162,11 +162,13 @@ title.h2 {
 	background-color: #DFBCD7;
 }
 
+.formpicture {
+	width: 100%;
+}
 
-
-
-
-
+.navpicture {
+	width: 100%;
+}
 
 
 .gallery {
